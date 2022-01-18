@@ -27,7 +27,7 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
   
   Study the code for counter1 and counter2, then answer the questions below.
   
-  1. What is the difference between counter1 and counter2?
+  1. What is the difference between counter1 and counter2? 
   
   2. Which of the two uses a closure? How can you tell?
   
@@ -166,7 +166,14 @@ function scoreboard(inningScoreCB,inningCB,numInnings) {
   return scoreByInning
 }
 
-console.log(scoreboard(getInningScore, inning, 9))
+function sayHi(){
+  let names = ["Kali", "Inderpal", "Nicole", "Megan"];
+  for(x in names){
+  console.log(`Hi my name is ${names[x]}`)
+  };
+ 
+ console.log(names);
+ sayHi();
 
 
 /* 🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑 */
